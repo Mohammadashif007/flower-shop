@@ -129,7 +129,7 @@
     margin: 20px 0;
 }
 
-/* section instagram */
+/* instagram section */
 
 .instagram-container {
     text-align: center;
@@ -143,4 +143,39 @@
 }
 .images-container img {
     width: 100%;
+}
+
+/* Subscribe section */
+.subscribe-container {
+    /* width: 80%; */
+    margin: 100px 200px;
+    outline: 2px solid gold;
+}
+.subscribe {
+    background-image: url("images/Rectangle\ 9.png");
+    /* background: url("images/Rectangle\ 9.png"), lightgray 0px -203.444px / 100% 213.755% no-repeat; */
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 80% 90%;
+    width: 100%;
+    height: 67vh;
+}
+.footer {
+    text-align: center;
+    background-color: #111010;
+    color: rgba(255, 255, 255, 0.90);
+    padding: 100px 400px;
+
+}
+.footer h2 {
+    margin-bottom: 15px;
+}
+.footer p {
+    color: rgba(255, 255, 255, 0.90);
+    font-size: 14px;
+    margin: 15px 0;
+}
+.copy-wright {
+    color: rgba(255, 255, 255, 0.40);
+    font-size: 12px;
 }
