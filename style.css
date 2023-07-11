@@ -62,7 +62,6 @@
     justify-content: center;
 }
 .featured-flower {
-    background-color: pink;
     text-align: center;
     border-radius: 135px 135px 0 0;
     padding: 80px 30px 0 30px;
@@ -124,8 +123,24 @@
     width: 218px;
     height: 320px;
 }
-.offer-description {
+.section-description {
     color: rgba(39, 39, 39, 0.60);
     font-size: 14px;
     margin: 20px 0;
+}
+
+/* section instagram */
+
+.instagram-container {
+    text-align: center;
+    margin-top: 80px;
+    /* padding: 0 100px; */
+}
+.images-container {
+    display: flex;
+    gap: 20px;
+    padding: 20px 220px;
+}
+.images-container img {
+    width: 100%;
 }
