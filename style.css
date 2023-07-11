@@ -1,0 +1,42 @@
+/* Google font link */
+@import url("https://fonts.googleapis.com/css2?family=Lato&display=swap");
+
+/* CSS style */
+* {
+    margin: 0;
+    padding: 0;
+    font-family: "lato";
+}
+.header-banner {
+    display: flex;
+    align-items: center;
+    gap: 50px;
+    padding: 50px 160px 0 160px;
+    background-color: rgba(229, 84, 115, 0.1);
+}
+.banner-description {
+    width: 60%;
+}
+.title {
+    font-size: 70px;
+}
+.description {
+    color: rgba(39, 39, 39, 0.6);
+    font-size: 18px;
+    margin: 25px 0;
+}
+.banner-img {
+    width: 40%;
+}
+.header-banner img {
+    width: 100%;
+}
+.btn-primary {
+    border: none;
+    padding: 20px 43px;
+    background-color: #e55473;
+    border-radius: 8px;
+    color: #fff;
+    font-size: 20px;
+    font-weight: 400;
+}
