@@ -50,7 +50,7 @@
 }
 .featured-title {
     color: #272727;
-    font-size: 40px;
+    font-size: 35px;
 }
 .featured-flowers {
     display: flex;
@@ -82,3 +82,25 @@
     color: black;
 }
 
+/* service */
+
+.service-container {
+    display: flex;
+    gap: 60px;
+    justify-content: center;
+    background-color: rgba(39, 39, 39, 0.05);
+    margin: 100px 236px;
+    padding: 40px;
+}
+.service {
+    text-align: center;
+}
+.service img {
+    height: 68px;
+    width: 68px;
+    margin-bottom: 10px;
+}
+.service p {
+    color: rgba(39, 39, 39, 0.80);
+    font-size: 14px;
+}
